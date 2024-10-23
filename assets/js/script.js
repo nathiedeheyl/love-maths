@@ -1,15 +1,34 @@
-function runGame()
+// Wait for the DOM to finish loading before running the game 
+// Get the button elements and add event listeners to them 
 
-function checkAnswer ()
+document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName("button"); 
 
-function calculateCorrectAnswer()
+    // no need for index notations? 
+    for (let button of buttons){ 
+        button.addEventListener("click", function() {
+            if (this.getAttribute("data-type") === "submit") {
+                alert("You clicked submit!");
+            } else {
+                let gameType = this.getAttribute("data-type");
+                alert(`You clicked ${gameType}`);
+            }
+        })
+    }
+})
 
-function incrementScore()
+function runGame() {}
 
-function incrementWrongAnswer()
+function checkAnswer () {}
 
-function displayAdditionQuestion()
+function calculateCorrectAnswer() {}
 
-function displaySubtractQuestion()
+function incrementScore() {}
 
-function displayMultiplyQuestion()
+function incrementWrongAnswer() {}
+
+function displayAdditionQuestion() {}
+
+function displaySubtractQuestion() {}
+
+function displayMultiplyQuestion() {}
