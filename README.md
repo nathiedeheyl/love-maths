@@ -1,5 +1,7 @@
 # A walkthrough practice project: Love Maths
 
+[Preview the site here](https://nathiedeheyl.github.io/love-maths/)
+
 ## Bugs
 
 - a media query for tablets seems to be missing. At least in my Chrome browser the design lacks responsiveness. The Submit Answer button is floating over the score area. 
