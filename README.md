@@ -1,12 +1,10 @@
 # A walkthrough practice project: Love Maths
 
-## Report 
+## Bugs
 
-### Notes / Improvements 
+- a media query for tablets seems to be missing. At least in my Chrome browser the design lacks responsiveness. The Submit Answer button is floating over the score area. 
 
-I personally think there's a media query for tablets missing. At least in my Chrome browser the design lacks responsiveness. 
-
-### Learnings 
+## Learnings 
 
 - About button data-type property 
 - Writing out a structure of functions: function() {} !! The curly brackets are important, otherwise the code will produce an error and not load correctly. 
